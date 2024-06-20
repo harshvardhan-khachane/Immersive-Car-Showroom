@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mercedes-Benz s63 Coupe Brabus 800
+* source:	https://sketchfab.com/3d-models/mercedes-benz-s63-coupe-brabus-800-1b79ffa597de49d188537b3f40aa8b50
+* author:	Black Snow (https://sketchfab.com/BlackSnow02)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mercedes-Benz s63 Coupe Brabus 800" (https://sketchfab.com/3d-models/mercedes-benz-s63-coupe-brabus-800-1b79ffa597de49d188537b3f40aa8b50) by Black Snow (https://sketchfab.com/BlackSnow02) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

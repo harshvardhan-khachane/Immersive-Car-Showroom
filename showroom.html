@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+        body { margin: 0; }
+        #blocker {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        #instructions {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 18px; 
+            cursor: pointer;
+            font-family: 'Roboto', sans-serif; 
+            color: #FFFFFF; 
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+        }
+
+        .instruction-title {
+            font-size: 36px; 
+            margin-bottom: 20px; 
+        }
+
+        .instruction-text {
+            font-size: 20px; 
+            line-height: 1.6; 
+            margin-bottom: 10px; 
+        }
+
+        .keyboard-shortcuts {
+            font-size: 16px; 
+            margin-top: 20px; 
+        }
+
+        .progress-bar-container{
+            position: absolute;
+            left: 50%;
+            top:20%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            /* background-color: rgba(0,0,0,0.5) ; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #progress-bar2{
+            width: 30%;
+            margin-top: 0.5%;
+            height: 2%;
+        }
+
+        label{
+            color: #FFFFFF;
+            font-size: 2rem;
+        }
+        .custom-progress-bar {
+            width: 30%;
+            height: 2%;
+            background-color: #140621; /* Green color */
+            margin-top: 0.5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar-container">
+        <label for="progress-bar2">Loading...</label>
+        <progress id="progress-bar" class="custom-progress-bar" value="0" max="100"></progress>
+    </div>
+    <div id="blocker">
+        <div id="instructions">
+            <p class="instruction-title">
+                Click Anywhere to Start
+            </p>
+            <p class="instruction-text">Go near a car and right click to get the information</p>
+            <div class="keyboard-shortcuts">
+                <p>
+                    Move using WASD Or Arrow Keys<br/>
+                    Look using mouse
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
